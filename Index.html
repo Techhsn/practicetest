@@ -1,1 +1,692 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="acss/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Test</title>
+    
+    
+    <style>
+      .carousel-caption{
+        width: 300px;
+        color: black;
+        top: 80px;
+        text-align: left;
+        margin-left: 65px;
+      }
+      .carousel-caption .m2{
+        color: #ffcc00;
+      }
+      .carousel-caption .m1, .m2{
+        font-size: 30px;
+        font-weight: bolder;
+      }
+      .carousel-caption .btn{
+        border: 1px solid black;
+      }
+      .card-img-top{
+        width: 150px;
+      }
+      .price{
+        color: #ffcc00;
+      }
+      .checked{
+        color: #ffcc00;
+      }
+      .intro{
+        width: 300px;
+        margin: 60px 0 0 30px;
+     
+      }
+      .intro h2{
+        font-size: 1.5rem;
+        font-weight: bolder;
+      }
+      .intro h6{
+        color: #ffcc00;
+      }
+      .intro h5{
+        font-size: 0.7rem;
+      }
+      .tab{
+        text-align: center
+      }
+      .tab h5{
+        font-size: 1rem;
+      }
+      .tab h6{
+        font-size: 0.6rem;
+      }
+      .model-img{
+        width: 350px;
+        opacity: 0.4;
+      }
+      .overlay{
+        background: black;
+        overflow: hidden;
+      }
+      .rec1{
+        border: 1px solid white;
+        width: 200px;
+        height: 200px;
+        transform: rotate(45deg);
+      }
+      .rec2{
+        border: 1px solid white;
+        width: inherit;
+        height: inherit;
+        width: 180px;
+        height: 180px;
+        margin: 10px;
+      }
+      .rec3{
+        width: 200px;
+        height: 200px;
+        transform: rotate(-45deg);
+        margin: 35px 0 0 35px;
+        text-align: center;
+      }
+      
+      .data{
+        position: absolute;
+       color: white;
+      margin: -280px 0 0 60px;
+       
+      }
+      .rec3 h5{
+        font-size: 0.6rem;
+      }
+      .rec3 h4{
+        font-size: 1.3rem;
+      }
+     .maindata .col-2{
+        margin: 0 10px;
+      }
+      .brand-logo img{
+        width: 100px;
+        margin: 20px 0 0 20px;
+        
+      }
+      ul li a{
+        list-style: none;
+        text-decoration: none;
+        color: #000;
+      }
+      .line{
+        font-size: .6rem;
+      }
+      .social{
+        text-align: right;
+      }
+      .social span{
+        margin: -10px 10px 10px 10px;
+      }
+      .head1{
+        font-size: 1rem;
+        margin-top: 40px;
+      }
+      .nav-link{
+        color: black;
+        margin: 0 5px;
+      }
+      .nav-social{
+        text-align: right;
+        
+      }
+      .nav-social a{
+        text-decoration: none;
+        color: black;
+        margin: 0 7px;
+      }
+      .rupee{
+        border: 1px solid yellow;
+        background: #ffcc00;
+        padding: 2px 4px;
+        color: white!important;
+      }
+      .status{
+        position: absolute;
+        border-radius: 50℅;
+        background: #ffcc00;
+        color: white!important;
+        margin-top: -10px;
+        border-radius: 50℅;
+        
+      }
+      
+      
+      </style>
+  </head>
+  <body>
+
+
+    <header>
+      <nav class="navbar navbar-expand-md ">
+        <div class="row ">
+          <a class="col-2 navbar-brand" href="index.html"> <img src="imgs/header-logo.jpg" alt="" width="100" height="50">
+</a></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse col-6" id="navbarsExample05">
+            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">OFFER</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Latest Products</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item" href="#">Brands</a>
+                  <a class="dropdown-item" href="#">OUR PRODUCTS</a>
+                  <a class="dropdown-item" href="#">COMBO</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SHOP BY</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item cta-btn">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            
+          </div></div>
+          <div class="nav-social col-3">
+            <a class="rupee">$</a>
+            <a class="fa fa-shopping-cart"><span class="status">3</span></a>
+            <a class="fa fa-search checked"></a>
+            <a class="">
+             
+               <i class="fa fa-bars"></i>
+         
+            </a>
+       
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- END header -->
+    
+    <!---- Slider start---->
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="imgs/main-slide.jpg" alt="First slide">
+          <div class="carousel-caption d-md-block">
+            <h1 class="m1">The Best</h1>
+            <h1 class="m2">Atlanta NAACP</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and dustry's standard dummy</p>
+            <button class="btn">Buy Now</button>
+          </div>
+          
+          
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/main-slide.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/main-slide.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+    
+     <!---- Slider End---->
+   <! -----1st raw images start------>
+<div class="row mt-5">
+  <div class="col-4 intro">
+    <h2>ATLANTA NAACP</h2>
+    <h6>The Best Production From</h6>
+    <h5 class="para">You Are the Driving first to change harry before our limted addition runs out!!! Only question pease dont't hagitate to call me</br></br>
+    Karen</h5>
+    
+  </div>
+   <div class="col-2">
+     <div class="card">
+  <img src="imgs/hatone.jpg" class="card-img-top" alt="">
+  </div>
+  <h6>HAT</h6>
+  <h6 class="price">$25.00</h6>
+  <div>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+  </div>
+   </div>
+   
+   
+   
+     <div class="col-2">
+            <div class="card">
+              <img src="imgs/naacp-model.jpg" class="card-img-top" height="200"  alt="">
+              
+            </div>
+              <h6>CRWN SUMITPACK</h6>
+              <h6 class="price">$25.00</h6>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div></div>
+              
+              
+  <div class="col-2">
+    <div class="card">
+      <img src="imgs/hattwo.jpg" class="card-img-top" alt="">
+  
+    </div>
+    <h6>HAT</h6>
+    <h6 class="price">$25.00</h6>
+    <div>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+    </div>
+  </div>
+  
+  
+  <div class="col-2">
+    <div class="card">
+      <img src="imgs/naacp-model-two.jpg" class="card-img-top" alt="">
+  
+    </div>
+    <h6>VOYAG YOGA BAG</h6>
+    <h6 class="price">$25.00</h6>
+    <div>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+    </div>
+  </div><div>
+    
+    <!--------tab Start------>
+   <div class="row mt-5 tab justify-content-between">
+     <div class="col-2">
+       <i class="fa fa-diamond fa-2x" aria-hidden="true"></i>
+       <h5 class="mt-3">Special Offer</h5>
+       <h6>Shop big Save Big</h6>
+     </div>
+     <div class="col-2">       <i class="fa fa-telegram fa-2x" aria-hidden="true"></i>
+            <h5 class="mt-3">Free Delivery</h5>
+            <h6>On Order Above $99</h6></div>
+     <div class="col-2">       <i class="fa fa-exchange fa-2x" aria-hidden="true"></i>
+      <h5 class="mt-3">30 Day Return</h5>
+      <h6>Policy We Offer</h6></div>
+     
+   
+       <div class="col-2">       <i class="fa fa-rocket fa-2x" aria-hidden="true"></i>
+      <h5 class="mt-3">Fastest Shiping</h5>
+      <h6>Policy We Offer</h6></div>
+     
+   </div>
+   </div>
+   
+    
+   <! -----3rd raw images start------>
+    
+    <div class="row mt-5">
+      <div class="col overlay">
+        <img class="model-img" src="imgs/fashion-model-one.jpg" >
+         <div class="data">
+           <div class="rec1">
+             <div class="rec2">
+               <div class="rec3">
+                 <h5>FASHION</h5>
+                 <h4>SUMMER & AUTUMN</h4></h4>
+                 <h5>Winter Collection</h5>
+        
+               </div>
+        
+             </div>
+           </div>
+         </div>
+      </div>
+      <div class="col overlay">  <img class="model-img" src="imgs/fashion-model-two.jpg" >
+       <div class="data">
+         <div class="rec1">
+           <div class="rec2">
+             <div class="rec3">
+               <h5>FASHION</h5>
+               <h4>30℅ OFF</h4>
+               <h5>Winter Collection</h5>
+      
+             </div>
+      
+           </div>
+         </div>
+       </div>
+      
+      </div>
+      <div class="col overlay">  <img class="model-img" src="imgs/fashion-model-three.jpg" >
+      
+      <div class="data">
+        <div class="rec1">
+          <div class="rec2">
+            <div class="rec3">
+              <h5>FASHION</h5>
+              <h4>New Fashion Style</h4>
+              <h5>Winter Collection</h5>
+              
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      
+      </div>
+    </div>
+    
+    
+    <div class="text-center mt-5"><h1>Featured Product</h1>
+    <p>Newest Trands From Top Brand</p></div></div>
+    
+    
+    <!---------main item data start----->
+    <div class="row mx-auto maindata">
+         <div class="col-2">
+           <div class="card">
+             <img src="imgs/pro1.jpg" class="card-img-top" alt="">
+           </div>
+           <h6>HAT</h6>
+           <h6 class="price">$25.00</h6>
+           <div>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star"></span>
+             <span class="fa fa-star"></span>
+           </div>
+         </div>
+      
+      
+      
+         <div class="col-2">
+           <div class="card">
+             <img src="imgs/pro2.jpg" class="card-img-top" height="200" alt="">
+      
+           </div>
+           <h6>CRWN SUMITPACK</h6>
+           <h6 class="price">$25.00</h6>
+           <div>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star"></span>
+             <span class="fa fa-star"></span>
+           </div>
+         </div>
+            <div class="col-2">
+              <div class="card">
+                <img src="imgs/pro3.jpg" class="card-img-top" alt="">
+              </div>
+              <h6>HAT</h6>
+              <h6 class="price">$25.00</h6>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+         
+         
+         
+            <div class="col-2">
+              <div class="card">
+                <img src="imgs/pro4.jpg" class="card-img-top" height="200" alt="">
+         
+              </div>
+              <h6>CRWN SUMITPACK</h6>
+              <h6 class="price">$25.00</h6>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+               <div class="col-2">
+                 <div class="card">
+                   <img src="imgs/pro5.jpg" class="card-img-top" alt="">
+                 </div>
+                 <h6>HAT</h6>
+                 <h6 class="price">$25.00</h6>
+                 <div>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star"></span>
+               
+                 </div></div>
+                 <div class="col-2">
+           <div class="card">
+             <img src="imgs/pro6.jpg" class="card-img-top" alt="">
+           </div>
+           <h6>HAT</h6>
+           <h6 class="price">$25.00</h6>
+           <div>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star"></span>
+             <span class="fa fa-star"></span>
+           </div>
+         </div>
+      
+      
+      
+         <div class="col-2">
+           <div class="card">
+             <img src="imgs/hattwo.jpg" class="card-img-top" height="200" alt="">
+      
+           </div>
+           <h6>CRWN SUMITPACK</h6>
+           <h6 class="price">$25.00</h6>
+           <div>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star"></span>
+             <span class="fa fa-star"></span>
+           </div>
+         </div>
+            <div class="col-2">
+              <div class="card">
+                <img src="imgs/pro8.jpg" class="card-img-top" alt="">
+              </div>
+              <h6>HAT</h6>
+              <h6 class="price">$25.00</h6>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+         
+         
+         
+            <div class="col-2">
+              <div class="card">
+                <img src="imgs/pro9.jpg" class="card-img-top" height="200" alt="">
+         
+              </div>
+              <h6>CRWN SUMITPACK</h6>
+              <h6 class="price">$25.00</h6>
+              <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+              </div>
+            </div>
+               <div class="col-2">
+                 <div class="card">
+                   <img src="imgs/pro10.jpg" class="card-img-top" alt="">
+                 </div>
+                 <h6>HAT</h6>
+                 <h6 class="price">$25.00</h6>
+                 <div>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star"></span>
+               
+                 </div></div>
+    </div>
+    
+    
+    
+    <! ----------- brand section----->
+    <div class="row brand-section mt-5 mb-5">
+      <div class="col-6 bg-dark text-light text-center py-5">
+      <h3 class="mt-3">Get out Special Discount</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and </br>Register Your Email For News</p>
+      <div>
+        <div class="form-group">
+          <input type="text" class="form-control-file" id="exampleFormControlFile1" placeholder="Enter Your Email Address">
+          <button class="btn btn-success" type="submit">GET COUPEN NOW</button>
+        </div>
+      </div>
+        
+      </div>
+      <div class="brand-logo col-6 mt-5">
+        <img class="col brand-img" src="imgs/brand-logo-4a.png" alt="">
+         <img class="col brand-img" src="imgs/brand-logo-1a.png" alt="">
+          <img class="col brand-img" src="imgs/brand-logo-2a.png" alt="">
+           <img class="col brand-img" src="imgs/brand-logo-3a.png" alt="">
+      </div>
+      
+    </div>
+    
+    
+    <div class="content d-flex align-items-center bg-light">
+    
+    </div>
+    
+    <footer class="footer">
+    
+      <div class="container">
+        <div class="row">
+      <h2 class=" col-6 line text-center">We are confident we have provide best for you stay connect with us</h2>
+      <div class="social col-6 ml-6">
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-instagram" </span>
+        <span class="fa fa-linkedin"></span>
+        <span class="fa fa-behance"></span>
+      </div>
+          
+          
+          <div class="col-3">
+             <h3 class="head1">Information</h3>
+             <ul class="list-unstyled links">
+               <li><a href="#">Delivery info</a></li>
+               <li><a href="#">Discount</a></li>
+               <li><a href="#">Site map</a></li>
+               <li><a href="#">Privicy Policy</a></li>
+               <li><a href="#">My Accoun</a></li>
+             </ul>
+          </div>
+          <div class="col-3 ml-auto">
+            <h3 class="head1">My Account</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">Sign In</a></li>
+              <li><a href="#">View Cart</a></li>
+              <li><a href="#">My Wishlist</a></a></li>
+              <li><a href="#">Check Out</a></li>
+              <li><a href="#">Trac My Order</a></li>
+            </ul>
+          </div>
+          <div class="col-2 ml-auto">
+            <h3 class="head1">Help</h3>
+            <ul class="list-unstyled links">
+              <li><a href="#">F.A.Q.</a></li>
+              <li><a href="#">Shoping Cart</a></li>
+              <li><a href="#">Contect Us</a></li>
+              <li><a href="#">Privicy Policy</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-4 ml-auto">
+            <h3 class="head1">About</h3>
+            <p>1147 Chahuhan Avenue Atlanta Georgia 272125</p>
+           <p>404-524-0580</p>
+           <p>info@sharqtank</p>
+        </div>
+    
+
+      </div>
+    </footer>
+    
+    
+    
+
+ 
+    
+    
+    
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
 
